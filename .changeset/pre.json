@@ -1,0 +1,10 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@rocketmark/release-test": "2.0.0"
+  },
+  "changesets": [
+    "shy-glasses-perform"
+  ]
+}
