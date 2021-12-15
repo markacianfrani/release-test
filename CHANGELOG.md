@@ -1,5 +1,17 @@
 # @rocketmark/release-test
 
+## 3.0.0
+
+### Major Changes
+
+- e18a258: removes a line
+
+### Minor Changes
+
+- ddd9d14: next version
+- 25b3e5a: feat7
+- 8bd882c: next feat 2
+
 ## 3.0.0-beta.0
 
 ### Major Changes
