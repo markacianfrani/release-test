@@ -1,5 +1,11 @@
 # @rocketmark/release-test
 
+## 3.0.0-beta.0
+
+### Major Changes
+
+- e18a258: removes a line
+
 ## 2.0.0
 
 ### Major Changes
