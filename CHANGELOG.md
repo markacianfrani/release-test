@@ -1,5 +1,15 @@
 # @rocketmark/release-test
 
+## 2.0.0
+
+### Major Changes
+
+- dc0a78d: updates message
+
+### Minor Changes
+
+- 86df6cd: test
+
 ## 1.3.0
 
 ### Minor Changes
