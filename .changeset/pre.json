@@ -4,5 +4,7 @@
   "initialVersions": {
     "@rocketmark/release-test": "1.2.0"
   },
-  "changesets": []
+  "changesets": [
+    "forty-laws-love"
+  ]
 }

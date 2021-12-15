@@ -1,5 +1,11 @@
 # @rocketmark/release-test
 
+## 1.3.0-next.0
+
+### Minor Changes
+
+- d104a7d: new feature
+
 ## 1.2.0
 
 ### Minor Changes
