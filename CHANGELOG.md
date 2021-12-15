@@ -1,5 +1,11 @@
 # @rocketmark/release-test
 
+## 1.2.0
+
+### Minor Changes
+
+- ffc5cd3: new feature 3
+
 ## 1.1.1
 
 ### Patch Changes
