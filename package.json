@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "prepare": "husky install"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@changesets/cli": "^2.18.1"
+    "@changesets/cli": "^2.18.1",
+    "husky": "^6.0.0"
   }
 }
