@@ -4,5 +4,9 @@
   "initialVersions": {
     "@rocketmark/release-test": "4.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "curly-mirrors-join",
+    "spicy-files-wait",
+    "ten-buttons-shop"
+  ]
 }
