@@ -1,5 +1,16 @@
 # @rocketmark/release-test
 
+## 4.1.0
+
+### Minor Changes
+
+- 9709d86: We added new props because theyre cool.
+  use this thing instead
+
+### Patch Changes
+
+- 036780a: test
+
 ## 4.0.0
 
 ### Major Changes
