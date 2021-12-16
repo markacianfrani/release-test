@@ -1,5 +1,16 @@
 # @rocketmark/release-test
 
+## 5.0.0
+
+### Major Changes
+
+- 918c8f6: major change
+- d63586a: next major feat 1
+
+### Minor Changes
+
+- 244ec36: 5.0 feat 1
+
 ## 5.0.0-beta.0
 
 ### Major Changes
