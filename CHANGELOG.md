@@ -1,5 +1,17 @@
 # @rocketmark/release-test
 
+## 4.0.0
+
+### Major Changes
+
+- 2cab1c9: next major feat 1
+
+### Minor Changes
+
+- 4ab0f8b: main feat 1
+- 655d713: next minor feat 2
+- a00d04f: feat3
+
 ## 4.0.0-beta.0
 
 ### Major Changes
