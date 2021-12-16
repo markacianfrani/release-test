@@ -4,5 +4,8 @@
   "initialVersions": {
     "@rocketmark/release-test": "3.0.0"
   },
-  "changesets": []
+  "changesets": [
+    "purple-avocados-teach",
+    "silly-lizards-behave"
+  ]
 }
