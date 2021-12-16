@@ -1,32 +1,29 @@
 const { exec } = require("child_process");
-const fs = require('fs')
+const fs = require("fs");
 
-const path = require('path')
+const path = require("path");
 
+async function updateBaseBranch(branchName) {
+  const configPath = path.resolve(__dirname, "../.changeset/config.json");
+  let configString = await fs.promises.readFile(configPath, {
+    encoding: "utf-8",
+  });
 
-async function makeChange(branchName) {
-	const directivesUtilsPath = path.resolve(__dirname, '../.changeset/config.json');
-	let directivesUtilsString = await fs.promises.readFile(directivesUtilsPath, { encoding: 'utf-8' });
-
-	const newString = directivesUtilsString.replace('"baseBranch": "main",', `"baseBranch": "${branchName}",`)
-	await fs.promises.writeFile(directivesUtilsPath, newString);
-	// const test = directivesUtilsString.replace('main','test')
-
-	console.log(newString);
+  const newConfigString = configString.replace(
+    '"baseBranch": "main",',
+    `"baseBranch": "${branchName}",`
+  );
+  await fs.promises.writeFile(configPath, newConfigString);
 }
 exec("git rev-parse --abbrev-ref HEAD", (err, stdout, stderr) => {
   console.log(stdout.trim());
   if (err) {
-    // handle your error
+    console.error(
+      "Error trying to determine current local branch. Manually verify .changeset/config.json has the correct baseBranch!!!!!!"
+    );
   }
 
-  if (typeof stdout === "string") {
-	  makeChange('nexwhatst')
-
-
-  }
-  if (typeof stdout === "string" && stdout.trim() === "master") {
-    console.log(`The branch is master`);
-    // Call your function here conditionally as per branch
+  if (typeof stdout === "string" && stdout.trim() === "next") {
+    updateBaseBranch("next");
   }
 });
