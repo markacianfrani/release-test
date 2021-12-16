@@ -1,0 +1,11 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@rocketmark/release-test": "3.0.0"
+  },
+  "changesets": [
+    "purple-avocados-teach",
+    "silly-lizards-behave"
+  ]
+}
