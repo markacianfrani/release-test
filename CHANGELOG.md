@@ -1,5 +1,12 @@
 # @rocketmark/release-test
 
+## 6.0.0-beta.0
+
+### Major Changes
+
+- f596252: Removes feat3
+- d0be856: removes feat7
+
 ## 4.1.0
 
 ### Minor Changes
@@ -10,6 +17,7 @@
 ### Patch Changes
 
 - 036780a: test
+
 ## 5.0.0
 
 ### Major Changes
