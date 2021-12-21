@@ -1,5 +1,11 @@
 # @rocketmark/release-test
 
+## 5.1.0
+
+### Minor Changes
+
+- a7bc2ed: adds feat10
+
 ## 4.1.0
 
 ### Minor Changes
@@ -10,6 +16,7 @@
 ### Patch Changes
 
 - 036780a: test
+
 ## 5.0.0
 
 ### Major Changes
