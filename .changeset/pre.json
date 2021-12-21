@@ -1,0 +1,8 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@rocketmark/release-test": "5.0.0"
+  },
+  "changesets": []
+}
