@@ -2,4 +2,4 @@
 . "$(dirname "$0")/_/husky.sh"
 
 
-node scripts/generateConfig.js
+#node scripts/generateConfig.js
